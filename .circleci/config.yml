@@ -23,6 +23,7 @@ jobs:
       - checkout
       - run: npm i
       - run: npm audit 
+      - run: npm audit fix
 
 workflows:
   build-test-analyze-workflow:
